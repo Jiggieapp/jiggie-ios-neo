@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (3.4.0)
+  - SwiftyUserDefaults (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
+
+PODFILE CHECKSUM: c8039d64e0e19c447869ba277265affdce9eacb9
+
+COCOAPODS: 1.0.0

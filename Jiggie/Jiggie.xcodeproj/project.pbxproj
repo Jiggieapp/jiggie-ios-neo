@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860B69D34184795942E8928E /* Pods_Jiggie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E9CFFE776E009EC36293F /* Pods_Jiggie.framework */; };
+		C8C237A118C6680AD8CC4A1E /* Pods_JiggieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */; };
 		DA146C1C1CEEF38100C626FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1B1CEEF38100C626FB /* AppDelegate.swift */; };
 		DA146C1E1CEEF38100C626FB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1D1CEEF38100C626FB /* FirstViewController.swift */; };
 		DA146C201CEEF38100C626FB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1F1CEEF38100C626FB /* SecondViewController.swift */; };
@@ -15,6 +17,7 @@
 		DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA146C261CEEF38100C626FB /* LaunchScreen.storyboard */; };
 		DA146C331CEEF38100C626FB /* JiggieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C321CEEF38100C626FB /* JiggieTests.swift */; };
 		DA146C3E1CEEF38100C626FB /* JiggieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C3D1CEEF38100C626FB /* JiggieUITests.swift */; };
+		F39A9FD64C2B216397E937D4 /* Pods_JiggieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0122323FB1629F686BFF8E8 /* Pods_JiggieUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA89E01992EFF648CE92FC8 /* Pods-JiggieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiggieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiggieTests/Pods-JiggieTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AB7F547D9154A26B152C2DB /* Pods-JiggieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiggieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiggieUITests/Pods-JiggieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30924E8934ACC93CE1B17A45 /* Pods-Jiggie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiggie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie.release.xcconfig"; sourceTree = "<group>"; };
+		481C250CA5AC4FB6F33E613E /* Pods-JiggieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiggieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiggieTests/Pods-JiggieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiggieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		864E9CFFE776E009EC36293F /* Pods_Jiggie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jiggie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB10E87150BE728D90E9DD49 /* Pods-Jiggie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiggie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie.debug.xcconfig"; sourceTree = "<group>"; };
 		DA146C181CEEF38100C626FB /* Jiggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA146C1B1CEEF38100C626FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA146C1D1CEEF38100C626FB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		DA146C391CEEF38100C626FB /* JiggieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiggieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA146C3D1CEEF38100C626FB /* JiggieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiggieUITests.swift; sourceTree = "<group>"; };
 		DA146C3F1CEEF38200C626FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9AA21A63BD553D278BF370 /* Pods-JiggieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiggieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiggieUITests/Pods-JiggieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0122323FB1629F686BFF8E8 /* Pods_JiggieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiggieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860B69D34184795942E8928E /* Pods_Jiggie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C237A118C6680AD8CC4A1E /* Pods_JiggieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39A9FD64C2B216397E937D4 /* Pods_JiggieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		332B8008DABA0A62CDCC2E39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB10E87150BE728D90E9DD49 /* Pods-Jiggie.debug.xcconfig */,
+				30924E8934ACC93CE1B17A45 /* Pods-Jiggie.release.xcconfig */,
+				481C250CA5AC4FB6F33E613E /* Pods-JiggieTests.debug.xcconfig */,
+				0AA89E01992EFF648CE92FC8 /* Pods-JiggieTests.release.xcconfig */,
+				1AB7F547D9154A26B152C2DB /* Pods-JiggieUITests.debug.xcconfig */,
+				EE9AA21A63BD553D278BF370 /* Pods-JiggieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA146C0F1CEEF38100C626FB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				DA146C311CEEF38100C626FB /* JiggieTests */,
 				DA146C3C1CEEF38100C626FB /* JiggieUITests */,
 				DA146C191CEEF38100C626FB /* Products */,
+				332B8008DABA0A62CDCC2E39 /* Pods */,
+				DD5B74235239CD6BB729D471 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = JiggieUITests;
 			sourceTree = "<group>";
 		};
+		DD5B74235239CD6BB729D471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864E9CFFE776E009EC36293F /* Pods_Jiggie.framework */,
+				6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */,
+				F0122323FB1629F686BFF8E8 /* Pods_JiggieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA146C421CEEF38200C626FB /* Build configuration list for PBXNativeTarget "Jiggie" */;
 			buildPhases = (
+				5ED9E2071F2FA0ACF5AFC5AB /* 📦 Check Pods Manifest.lock */,
 				DA146C141CEEF38100C626FB /* Sources */,
 				DA146C151CEEF38100C626FB /* Frameworks */,
 				DA146C161CEEF38100C626FB /* Resources */,
+				590414534782D1133026FACE /* 📦 Embed Pods Frameworks */,
+				AF860039DA0F3193298991EA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA146C451CEEF38200C626FB /* Build configuration list for PBXNativeTarget "JiggieTests" */;
 			buildPhases = (
+				A19D3412FBEF271FC5737608 /* 📦 Check Pods Manifest.lock */,
 				DA146C2A1CEEF38100C626FB /* Sources */,
 				DA146C2B1CEEF38100C626FB /* Frameworks */,
 				DA146C2C1CEEF38100C626FB /* Resources */,
+				4FB3038B17A7710CDBD99CB5 /* 📦 Embed Pods Frameworks */,
+				48C9BA7A34C338B65E82C9A2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA146C481CEEF38200C626FB /* Build configuration list for PBXNativeTarget "JiggieUITests" */;
 			buildPhases = (
+				ED10F176ABE4589523070550 /* 📦 Check Pods Manifest.lock */,
 				DA146C351CEEF38100C626FB /* Sources */,
 				DA146C361CEEF38100C626FB /* Frameworks */,
 				DA146C371CEEF38100C626FB /* Resources */,
+				075E03421A36F4DDFBE6E7EA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		075E03421A36F4DDFBE6E7EA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiggieUITests/Pods-JiggieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C9BA7A34C338B65E82C9A2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiggieTests/Pods-JiggieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB3038B17A7710CDBD99CB5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JiggieTests/Pods-JiggieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590414534782D1133026FACE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ED9E2071F2FA0ACF5AFC5AB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A19D3412FBEF271FC5737608 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF860039DA0F3193298991EA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED10F176ABE4589523070550 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA146C141CEEF38100C626FB /* Sources */ = {
@@ -401,6 +572,7 @@
 		};
 		DA146C431CEEF38200C626FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB10E87150BE728D90E9DD49 /* Pods-Jiggie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jiggie/Info.plist;
@@ -413,6 +585,7 @@
 		};
 		DA146C441CEEF38200C626FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30924E8934ACC93CE1B17A45 /* Pods-Jiggie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jiggie/Info.plist;
@@ -425,6 +598,7 @@
 		};
 		DA146C461CEEF38200C626FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481C250CA5AC4FB6F33E613E /* Pods-JiggieTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JiggieTests/Info.plist;
@@ -437,6 +611,7 @@
 		};
 		DA146C471CEEF38200C626FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA89E01992EFF648CE92FC8 /* Pods-JiggieTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = JiggieTests/Info.plist;
@@ -449,6 +624,7 @@
 		};
 		DA146C491CEEF38200C626FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB7F547D9154A26B152C2DB /* Pods-JiggieUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JiggieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +636,7 @@
 		};
 		DA146C4A1CEEF38200C626FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9AA21A63BD553D278BF370 /* Pods-JiggieUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = JiggieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +665,7 @@
 				DA146C441CEEF38200C626FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA146C451CEEF38200C626FB /* Build configuration list for PBXNativeTarget "JiggieTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +674,7 @@
 				DA146C471CEEF38200C626FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA146C481CEEF38200C626FB /* Build configuration list for PBXNativeTarget "JiggieUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +683,7 @@
 				DA146C4A1CEEF38200C626FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

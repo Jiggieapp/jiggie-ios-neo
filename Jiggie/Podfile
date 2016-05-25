@@ -6,6 +6,9 @@ target 'Jiggie' do
   use_frameworks!
 
   # Pods for Jiggie
+    pod 'Alamofire', '~> 3.4'
+    pod 'SwiftyUserDefaults'
+    
     
   target 'JiggieTests' do
     inherit! :search_paths

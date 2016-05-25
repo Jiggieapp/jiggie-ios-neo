@@ -1,0 +1,6 @@
+framework module Pods_JiggieUITests {
+  umbrella header "Pods-JiggieUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
