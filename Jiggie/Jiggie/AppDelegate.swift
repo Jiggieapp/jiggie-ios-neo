@@ -12,12 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var tabBarController : UITabBarController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-    
+        tabBarController = UITabBarController()
+        tabBarController 
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        if let window = window {
+            window.backgroundColor = UIColor.whiteColor()
+            window.rootViewController = UIViewController()
+            window.makeKeyAndVisible()
+        }
+        
         return true
     }
 
