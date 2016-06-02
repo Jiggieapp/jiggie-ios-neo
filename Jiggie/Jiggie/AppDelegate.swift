@@ -18,12 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         tabBarController = UITabBarController()
-        tabBarController 
+        
+        let eventListViewController = EventListViewController()
+        let socialViewController = EventListViewController()
+        
+        tabBarController?.viewControllers = [eventListViewController, socialViewController]
+        
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         if let window = window {
             window.backgroundColor = UIColor.whiteColor()
-            window.rootViewController = UIViewController()
+            window.rootViewController = tabBarController
             window.makeKeyAndVisible()
         }
         
