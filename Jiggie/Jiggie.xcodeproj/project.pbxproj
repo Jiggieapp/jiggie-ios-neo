@@ -28,6 +28,8 @@
 		9367EF561D0168CE00B61FAC /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF521D0168CE00B61FAC /* Lato-Italic.ttf */; };
 		9367EF571D0168CE00B61FAC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF531D0168CE00B61FAC /* Lato-Light.ttf */; };
 		9367EF581D0168CE00B61FAC /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */; };
+		9367EF5A1D01774800B61FAC /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF591D01774800B61FAC /* BaseTabBarController.swift */; };
+		9367EF5B1D01774800B61FAC /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF591D01774800B61FAC /* BaseTabBarController.swift */; };
 		C8C237A118C6680AD8CC4A1E /* Pods_JiggieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */; };
 		DA146C1C1CEEF38100C626FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1B1CEEF38100C626FB /* AppDelegate.swift */; };
 		DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA146C261CEEF38100C626FB /* LaunchScreen.storyboard */; };
@@ -72,6 +74,7 @@
 		9367EF521D0168CE00B61FAC /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
 		9367EF531D0168CE00B61FAC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		9367EF591D01774800B61FAC /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		CB10E87150BE728D90E9DD49 /* Pods-Jiggie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiggie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie.debug.xcconfig"; sourceTree = "<group>"; };
 		DA146C181CEEF38100C626FB /* Jiggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA146C1B1CEEF38100C626FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -270,6 +273,7 @@
 				9367EF311D013C2800B61FAC /* Views */,
 				DA146C1B1CEEF38100C626FB /* AppDelegate.swift */,
 				9367EF451D01672900B61FAC /* BaseViewController.swift */,
+				9367EF591D01774800B61FAC /* BaseTabBarController.swift */,
 				DA146C261CEEF38100C626FB /* LaunchScreen.storyboard */,
 				DA146C291CEEF38100C626FB /* Info.plist */,
 			);
@@ -574,6 +578,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9367EF5A1D01774800B61FAC /* BaseTabBarController.swift in Sources */,
 				9367EF431D01641D00B61FAC /* UIKitHelper.swift in Sources */,
 				9367EF411D01641D00B61FAC /* FoundationHelper.swift in Sources */,
 				9367EF361D013C2800B61FAC /* SocialViewController.swift in Sources */,
@@ -587,6 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9367EF5B1D01774800B61FAC /* BaseTabBarController.swift in Sources */,
 				9367EF441D01641D00B61FAC /* UIKitHelper.swift in Sources */,
 				9367EF421D01641D00B61FAC /* FoundationHelper.swift in Sources */,
 				9367EF371D013C2800B61FAC /* SocialViewController.swift in Sources */,

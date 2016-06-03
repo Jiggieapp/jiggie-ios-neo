@@ -14,23 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     static let sharedDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     
     var window: UIWindow?
-    var tabBarController : UITabBarController?
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
-        tabBarController = UITabBarController()
-        
-        let eventListViewController = EventListViewController()
-        let socialViewController = EventListViewController()
-        
-        tabBarController?.viewControllers = [eventListViewController, socialViewController]
-        
-        
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         if let window = window {
             window.backgroundColor = UIColor.whiteColor()
-            window.rootViewController = tabBarController
+            window.rootViewController = BaseTabBarController.defaultTabBarController()
             window.makeKeyAndVisible()
         }
         
