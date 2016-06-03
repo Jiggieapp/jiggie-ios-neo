@@ -58,7 +58,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    func presentRootViewController(viewController: UIViewController) {
+        guard let window = self.window else {
+            self.window?.rootViewController = viewController
+            return
+        }
+        
+        viewController.view.frame = window.frame
+        let snapShotView = viewController.view.snapshotViewAfterScreenUpdates(true)
+        var frame = snapShotView.frame
+        frame.origin.y = UIScreen.height()
+        snapShotView.frame = frame
+        window.addSubview(snapShotView)
+        snapShotView.layer.zPosition = 1000
+        
+        UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .CurveEaseOut, animations: { () -> Void in
+            var frame = snapShotView.frame
+            frame.origin.y = 0
+            snapShotView.frame = frame
+        }) { (finished) -> Void in
+            snapShotView.removeFromSuperview()
+            window.rootViewController = viewController
+        }
+    }
+    
+    func dismissRootViewController(viewController: UIViewController) {
+        guard let window = self.window else {
+            self.window?.rootViewController = viewController
+            return
+        }
+        
+        let snapShotView = window.snapshotViewAfterScreenUpdates(true)
+        window.addSubview(snapShotView)
+        snapShotView.layer.zPosition = 1000
+        window.rootViewController = viewController
+        
+        UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: .CurveEaseOut, animations: { () -> Void in
+            var frame = snapShotView.frame
+            frame.origin.y = UIScreen.height()
+            snapShotView.frame = frame
+        }) { (finished) -> Void in
+            snapShotView.removeFromSuperview()
+        }
+    }
+    
 }
 
