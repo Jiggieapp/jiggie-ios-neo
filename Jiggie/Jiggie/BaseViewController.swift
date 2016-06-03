@@ -38,7 +38,7 @@ class BaseViewController: UIViewController {
     func setupNavigationBar(title title: String, translucent: Bool = false) {
         self.setupNavigationBar(translucent: translucent)
         
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont.navigationBarTitleFont()]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor(), NSFontAttributeName: UIFont.phRegular(16)]
         
         self.navigationItem.title = title
     }
@@ -61,8 +61,8 @@ class BaseViewController: UIViewController {
         let attributedString = NSMutableAttributedString(string: "\(title)\n\(subtitle)")
         let titleRange = NSMakeRange(0, title.characters.count)
         let subtitleRange = NSMakeRange(title.characters.count+1, subtitle.characters.count)
-        attributedString.addAttribute(NSFontAttributeName, value: UIFont.navigationBarTitleFont(), range: titleRange)
-        attributedString.addAttribute(NSFontAttributeName, value: UIFont.navigationBarSubtitleFont(), range: subtitleRange)
+        attributedString.addAttribute(NSFontAttributeName, value: UIFont.phRegular(16), range: titleRange)
+        attributedString.addAttribute(NSFontAttributeName, value: UIFont.phRegular(13), range: subtitleRange)
         attributedString.addAttribute(NSForegroundColorAttributeName, value: UIColor.whiteColor(), range: subtitleRange)
         
         let paragraphStyle = NSMutableParagraphStyle()
@@ -118,7 +118,7 @@ class BaseViewController: UIViewController {
     
     func setupLeftNavigationBar(withTitle title: String) {
         let barButtonItem = UIBarButtonItem(title: title, style: .Plain, target: self, action: #selector(BaseViewController.didTapLeftBarButtonItem(_:)))
-        barButtonItem.setTitleTextAttributes([NSFontAttributeName : UIFont.proximaNova(14)],
+        barButtonItem.setTitleTextAttributes([NSFontAttributeName : UIFont.phBold(13)],
                                              forState: .Normal)
         
         self.navigationItem.leftBarButtonItem = barButtonItem;
@@ -152,7 +152,7 @@ class BaseViewController: UIViewController {
     
     func setupRightNavigationBar(withTitle title: String) {
         let barButtonItem = UIBarButtonItem(title: title, style: .Plain, target: self, action: #selector(BaseViewController.didTapRightBarButtonItem(_:)))
-        barButtonItem.setTitleTextAttributes([NSFontAttributeName : UIFont.proximaNovaSemibold(14)],
+        barButtonItem.setTitleTextAttributes([NSFontAttributeName : UIFont.phBold(13)],
                                              forState: .Normal)
         
         self.navigationItem.rightBarButtonItem = barButtonItem;

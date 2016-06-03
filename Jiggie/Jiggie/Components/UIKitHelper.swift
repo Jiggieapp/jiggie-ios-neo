@@ -83,38 +83,28 @@ public extension UIColor {
 }
 
 
-private let kHelveticaNeueFont = "HelveticaNeue"
-private let kHelveticaNeueMediumFont = "HelveticaNeue-Medium"
-private let kHelveticaNeueBoldFont = "HelveticaNeue-Bold"
-
 extension UIFont {
     
-    public class func navigationBarTitleFont() -> UIFont {
-        return UIFont(name: "ProximaNova-Semibold", size: 16)!
+    public static func phBold(size: CGFloat) -> UIFont {
+        return UIFont(name: "Lato-Bold", size: size)!
     }
     
-    public class func navigationBarSubtitleFont() -> UIFont {
-        return UIFont(name: "ProximaNova-Regular", size: 13)!
+    public static func phItalic(size: CGFloat) -> UIFont {
+        return UIFont(name: "Lato-Italic", size: size)!
     }
     
-    public class func proximaNovaBold(size: CGFloat) -> UIFont {
-        return UIFont(name: "ProximaNova-Bold", size: size)!
+    public static func phRegular(size: CGFloat) -> UIFont {
+        return UIFont(name: "Lato-Regular", size: size)!
     }
     
-    public class func proximaNova(size: CGFloat) -> UIFont {
-        return UIFont(name: "ProximaNova-Regular", size: size)!
-    }
-    
-    public class func proximaNovaSemibold(size: CGFloat) -> UIFont {
-        return UIFont(name: "ProximaNova-Semibold", size: size)!
+    public static func phLight(size: CGFloat) -> UIFont {
+        return UIFont(name: "Lato-Light", size: size)!
     }
     
     public class func checkFontFamilyNames() {
-        for family: String in UIFont.familyNames()
-        {
+        for family: String in UIFont.familyNames() {
             print("\(family)")
-            for names: String in UIFont.fontNamesForFamilyName(family)
-            {
+            for names: String in UIFont.fontNamesForFamilyName(family) {
                 print("== \(names)")
             }
         }

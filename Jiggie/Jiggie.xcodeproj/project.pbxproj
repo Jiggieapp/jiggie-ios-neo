@@ -24,6 +24,10 @@
 		9367EF441D01641D00B61FAC /* UIKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF401D01641D00B61FAC /* UIKitHelper.swift */; };
 		9367EF461D01672900B61FAC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF451D01672900B61FAC /* BaseViewController.swift */; };
 		9367EF471D01672900B61FAC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF451D01672900B61FAC /* BaseViewController.swift */; };
+		9367EF551D0168CE00B61FAC /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF511D0168CE00B61FAC /* Lato-Bold.ttf */; };
+		9367EF561D0168CE00B61FAC /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF521D0168CE00B61FAC /* Lato-Italic.ttf */; };
+		9367EF571D0168CE00B61FAC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF531D0168CE00B61FAC /* Lato-Light.ttf */; };
+		9367EF581D0168CE00B61FAC /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */; };
 		C8C237A118C6680AD8CC4A1E /* Pods_JiggieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */; };
 		DA146C1C1CEEF38100C626FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1B1CEEF38100C626FB /* AppDelegate.swift */; };
 		DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA146C261CEEF38100C626FB /* LaunchScreen.storyboard */; };
@@ -64,6 +68,10 @@
 		9367EF3F1D01641D00B61FAC /* FoundationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationHelper.swift; sourceTree = "<group>"; };
 		9367EF401D01641D00B61FAC /* UIKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitHelper.swift; sourceTree = "<group>"; };
 		9367EF451D01672900B61FAC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9367EF511D0168CE00B61FAC /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		9367EF521D0168CE00B61FAC /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		9367EF531D0168CE00B61FAC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		CB10E87150BE728D90E9DD49 /* Pods-Jiggie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiggie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie.debug.xcconfig"; sourceTree = "<group>"; };
 		DA146C181CEEF38100C626FB /* Jiggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA146C1B1CEEF38100C626FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -206,16 +214,9 @@
 			isa = PBXGroup;
 			children = (
 				9367EF2F1D013C2800B61FAC /* Assets.xcassets */,
-				9367EF301D013C2800B61FAC /* Fonts */,
+				9367EF501D0168CE00B61FAC /* Fonts */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		9367EF301D013C2800B61FAC /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		9367EF311D013C2800B61FAC /* Views */ = {
@@ -223,6 +224,17 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9367EF501D0168CE00B61FAC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9367EF511D0168CE00B61FAC /* Lato-Bold.ttf */,
+				9367EF521D0168CE00B61FAC /* Lato-Italic.ttf */,
+				9367EF531D0168CE00B61FAC /* Lato-Light.ttf */,
+				9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		DA146C0F1CEEF38100C626FB = {
@@ -405,9 +417,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9367EF341D013C2800B61FAC /* EventListViewController.xib in Resources */,
+				9367EF551D0168CE00B61FAC /* Lato-Bold.ttf in Resources */,
 				DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */,
+				9367EF581D0168CE00B61FAC /* Lato-Regular.ttf in Resources */,
 				9367EF381D013C2800B61FAC /* SocialViewController.xib in Resources */,
+				9367EF561D0168CE00B61FAC /* Lato-Italic.ttf in Resources */,
 				9367EF3A1D013C2800B61FAC /* Assets.xcassets in Resources */,
+				9367EF571D0168CE00B61FAC /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
