@@ -8,27 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		860B69D34184795942E8928E /* Pods_Jiggie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864E9CFFE776E009EC36293F /* Pods_Jiggie.framework */; };
+		9367EF321D013C2800B61FAC /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF241D013C2800B61FAC /* EventListViewController.swift */; };
+		9367EF331D013C2800B61FAC /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF241D013C2800B61FAC /* EventListViewController.swift */; };
+		9367EF341D013C2800B61FAC /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF251D013C2800B61FAC /* EventListViewController.xib */; };
+		9367EF351D013C2800B61FAC /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF251D013C2800B61FAC /* EventListViewController.xib */; };
+		9367EF361D013C2800B61FAC /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF291D013C2800B61FAC /* SocialViewController.swift */; };
+		9367EF371D013C2800B61FAC /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF291D013C2800B61FAC /* SocialViewController.swift */; };
+		9367EF381D013C2800B61FAC /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF2A1D013C2800B61FAC /* SocialViewController.xib */; };
+		9367EF391D013C2800B61FAC /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF2A1D013C2800B61FAC /* SocialViewController.xib */; };
+		9367EF3A1D013C2800B61FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF2F1D013C2800B61FAC /* Assets.xcassets */; };
+		9367EF3B1D013C2800B61FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF2F1D013C2800B61FAC /* Assets.xcassets */; };
 		C8C237A118C6680AD8CC4A1E /* Pods_JiggieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */; };
 		DA146C1C1CEEF38100C626FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1B1CEEF38100C626FB /* AppDelegate.swift */; };
 		DA146C1E1CEEF38100C626FB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1D1CEEF38100C626FB /* FirstViewController.swift */; };
 		DA146C201CEEF38100C626FB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1F1CEEF38100C626FB /* SecondViewController.swift */; };
 		DA146C231CEEF38100C626FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA146C211CEEF38100C626FB /* Main.storyboard */; };
-		DA146C251CEEF38100C626FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA146C241CEEF38100C626FB /* Assets.xcassets */; };
 		DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA146C261CEEF38100C626FB /* LaunchScreen.storyboard */; };
 		DA146C331CEEF38100C626FB /* JiggieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C321CEEF38100C626FB /* JiggieTests.swift */; };
 		DA146C3E1CEEF38100C626FB /* JiggieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C3D1CEEF38100C626FB /* JiggieUITests.swift */; };
-		DA5A016F1CFC5F070078F7DB /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A016D1CFC5F070078F7DB /* SocialViewController.swift */; };
-		DA5A01701CFC5F070078F7DB /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A016D1CFC5F070078F7DB /* SocialViewController.swift */; };
-		DA5A01711CFC5F070078F7DB /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A016D1CFC5F070078F7DB /* SocialViewController.swift */; };
-		DA5A01721CFC5F070078F7DB /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5A016E1CFC5F070078F7DB /* SocialViewController.xib */; };
-		DA5A01731CFC5F070078F7DB /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5A016E1CFC5F070078F7DB /* SocialViewController.xib */; };
-		DA5A01741CFC5F070078F7DB /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5A016E1CFC5F070078F7DB /* SocialViewController.xib */; };
-		DA5A01771CFC5F330078F7DB /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A01751CFC5F330078F7DB /* EventListViewController.swift */; };
-		DA5A01781CFC5F330078F7DB /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A01751CFC5F330078F7DB /* EventListViewController.swift */; };
-		DA5A01791CFC5F330078F7DB /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5A01751CFC5F330078F7DB /* EventListViewController.swift */; };
-		DA5A017A1CFC5F330078F7DB /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5A01761CFC5F330078F7DB /* EventListViewController.xib */; };
-		DA5A017B1CFC5F330078F7DB /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5A01761CFC5F330078F7DB /* EventListViewController.xib */; };
-		DA5A017C1CFC5F330078F7DB /* EventListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5A01761CFC5F330078F7DB /* EventListViewController.xib */; };
 		F39A9FD64C2B216397E937D4 /* Pods_JiggieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0122323FB1629F686BFF8E8 /* Pods_JiggieUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,13 +53,17 @@
 		481C250CA5AC4FB6F33E613E /* Pods-JiggieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiggieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JiggieTests/Pods-JiggieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiggieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864E9CFFE776E009EC36293F /* Pods_Jiggie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jiggie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9367EF241D013C2800B61FAC /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		9367EF251D013C2800B61FAC /* EventListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventListViewController.xib; sourceTree = "<group>"; };
+		9367EF291D013C2800B61FAC /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		9367EF2A1D013C2800B61FAC /* SocialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialViewController.xib; sourceTree = "<group>"; };
+		9367EF2F1D013C2800B61FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB10E87150BE728D90E9DD49 /* Pods-Jiggie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiggie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie.debug.xcconfig"; sourceTree = "<group>"; };
 		DA146C181CEEF38100C626FB /* Jiggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA146C1B1CEEF38100C626FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA146C1D1CEEF38100C626FB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		DA146C1F1CEEF38100C626FB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DA146C221CEEF38100C626FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA146C241CEEF38100C626FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA146C271CEEF38100C626FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA146C291CEEF38100C626FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA146C2E1CEEF38100C626FB /* JiggieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiggieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,10 +72,6 @@
 		DA146C391CEEF38100C626FB /* JiggieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiggieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA146C3D1CEEF38100C626FB /* JiggieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiggieUITests.swift; sourceTree = "<group>"; };
 		DA146C3F1CEEF38200C626FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA5A016D1CFC5F070078F7DB /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
-		DA5A016E1CFC5F070078F7DB /* SocialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialViewController.xib; sourceTree = "<group>"; };
-		DA5A01751CFC5F330078F7DB /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
-		DA5A01761CFC5F330078F7DB /* EventListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventListViewController.xib; sourceTree = "<group>"; };
 		EE9AA21A63BD553D278BF370 /* Pods-JiggieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiggieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JiggieUITests/Pods-JiggieUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F0122323FB1629F686BFF8E8 /* Pods_JiggieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiggieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,6 +117,109 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9367EF201D013C2800B61FAC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9367EF211D013C2800B61FAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9367EF221D013C2800B61FAC /* Chats */,
+				9367EF231D013C2800B61FAC /* Events */,
+				9367EF261D013C2800B61FAC /* Login */,
+				9367EF271D013C2800B61FAC /* Settings */,
+				9367EF281D013C2800B61FAC /* Social */,
+				9367EF2B1D013C2800B61FAC /* Tickets */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9367EF221D013C2800B61FAC /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		9367EF231D013C2800B61FAC /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				9367EF241D013C2800B61FAC /* EventListViewController.swift */,
+				9367EF251D013C2800B61FAC /* EventListViewController.xib */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		9367EF261D013C2800B61FAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9367EF271D013C2800B61FAC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9367EF281D013C2800B61FAC /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				9367EF291D013C2800B61FAC /* SocialViewController.swift */,
+				9367EF2A1D013C2800B61FAC /* SocialViewController.xib */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		9367EF2B1D013C2800B61FAC /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
+		9367EF2C1D013C2800B61FAC /* ExtraLibraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExtraLibraries;
+			sourceTree = "<group>";
+		};
+		9367EF2D1D013C2800B61FAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9367EF2E1D013C2800B61FAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9367EF2F1D013C2800B61FAC /* Assets.xcassets */,
+				9367EF301D013C2800B61FAC /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9367EF301D013C2800B61FAC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9367EF311D013C2800B61FAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DA146C0F1CEEF38100C626FB = {
 			isa = PBXGroup;
 			children = (
@@ -145,15 +245,16 @@
 		DA146C1A1CEEF38100C626FB /* Jiggie */ = {
 			isa = PBXGroup;
 			children = (
-				DA5A015F1CFC4AA90078F7DB /* Components */,
-				DA5A01601CFC4AA90078F7DB /* Controllers */,
-				DA5A01671CFC4AA90078F7DB /* ExtraLibraries */,
-				DA5A01681CFC4AA90078F7DB /* Models */,
+				9367EF201D013C2800B61FAC /* Components */,
+				9367EF211D013C2800B61FAC /* Controllers */,
+				9367EF2C1D013C2800B61FAC /* ExtraLibraries */,
+				9367EF2D1D013C2800B61FAC /* Models */,
+				9367EF2E1D013C2800B61FAC /* Resources */,
+				9367EF311D013C2800B61FAC /* Views */,
 				DA146C1B1CEEF38100C626FB /* AppDelegate.swift */,
 				DA146C1D1CEEF38100C626FB /* FirstViewController.swift */,
 				DA146C1F1CEEF38100C626FB /* SecondViewController.swift */,
 				DA146C211CEEF38100C626FB /* Main.storyboard */,
-				DA146C241CEEF38100C626FB /* Assets.xcassets */,
 				DA146C261CEEF38100C626FB /* LaunchScreen.storyboard */,
 				DA146C291CEEF38100C626FB /* Info.plist */,
 			);
@@ -176,86 +277,6 @@
 				DA146C3F1CEEF38200C626FB /* Info.plist */,
 			);
 			path = JiggieUITests;
-			sourceTree = "<group>";
-		};
-		DA5A015F1CFC4AA90078F7DB /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		DA5A01601CFC4AA90078F7DB /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				DA5A01611CFC4AA90078F7DB /* Chats */,
-				DA5A01621CFC4AA90078F7DB /* Events */,
-				DA5A01631CFC4AA90078F7DB /* Login */,
-				DA5A01641CFC4AA90078F7DB /* Settings */,
-				DA5A01651CFC4AA90078F7DB /* Social */,
-				DA5A01661CFC4AA90078F7DB /* Tickets */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		DA5A01611CFC4AA90078F7DB /* Chats */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Chats;
-			sourceTree = "<group>";
-		};
-		DA5A01621CFC4AA90078F7DB /* Events */ = {
-			isa = PBXGroup;
-			children = (
-				DA5A01751CFC5F330078F7DB /* EventListViewController.swift */,
-				DA5A01761CFC5F330078F7DB /* EventListViewController.xib */,
-			);
-			path = Events;
-			sourceTree = "<group>";
-		};
-		DA5A01631CFC4AA90078F7DB /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		DA5A01641CFC4AA90078F7DB /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		DA5A01651CFC4AA90078F7DB /* Social */ = {
-			isa = PBXGroup;
-			children = (
-				DA5A016D1CFC5F070078F7DB /* SocialViewController.swift */,
-				DA5A016E1CFC5F070078F7DB /* SocialViewController.xib */,
-			);
-			path = Social;
-			sourceTree = "<group>";
-		};
-		DA5A01661CFC4AA90078F7DB /* Tickets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tickets;
-			sourceTree = "<group>";
-		};
-		DA5A01671CFC4AA90078F7DB /* ExtraLibraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ExtraLibraries;
-			sourceTree = "<group>";
-		};
-		DA5A01681CFC4AA90078F7DB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		DD5B74235239CD6BB729D471 /* Frameworks */ = {
@@ -380,11 +401,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9367EF341D013C2800B61FAC /* EventListViewController.xib in Resources */,
 				DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */,
-				DA5A01721CFC5F070078F7DB /* SocialViewController.xib in Resources */,
-				DA146C251CEEF38100C626FB /* Assets.xcassets in Resources */,
-				DA5A017A1CFC5F330078F7DB /* EventListViewController.xib in Resources */,
 				DA146C231CEEF38100C626FB /* Main.storyboard in Resources */,
+				9367EF381D013C2800B61FAC /* SocialViewController.xib in Resources */,
+				9367EF3A1D013C2800B61FAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +413,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5A01731CFC5F070078F7DB /* SocialViewController.xib in Resources */,
-				DA5A017B1CFC5F330078F7DB /* EventListViewController.xib in Resources */,
+				9367EF351D013C2800B61FAC /* EventListViewController.xib in Resources */,
+				9367EF3B1D013C2800B61FAC /* Assets.xcassets in Resources */,
+				9367EF391D013C2800B61FAC /* SocialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,8 +423,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5A01741CFC5F070078F7DB /* SocialViewController.xib in Resources */,
-				DA5A017C1CFC5F330078F7DB /* EventListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,9 +556,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5A01771CFC5F330078F7DB /* EventListViewController.swift in Sources */,
-				DA5A016F1CFC5F070078F7DB /* SocialViewController.swift in Sources */,
+				9367EF361D013C2800B61FAC /* SocialViewController.swift in Sources */,
 				DA146C201CEEF38100C626FB /* SecondViewController.swift in Sources */,
+				9367EF321D013C2800B61FAC /* EventListViewController.swift in Sources */,
 				DA146C1C1CEEF38100C626FB /* AppDelegate.swift in Sources */,
 				DA146C1E1CEEF38100C626FB /* FirstViewController.swift in Sources */,
 			);
@@ -548,9 +568,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9367EF371D013C2800B61FAC /* SocialViewController.swift in Sources */,
 				DA146C331CEEF38100C626FB /* JiggieTests.swift in Sources */,
-				DA5A01781CFC5F330078F7DB /* EventListViewController.swift in Sources */,
-				DA5A01701CFC5F070078F7DB /* SocialViewController.swift in Sources */,
+				9367EF331D013C2800B61FAC /* EventListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,8 +579,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA146C3E1CEEF38100C626FB /* JiggieUITests.swift in Sources */,
-				DA5A01791CFC5F330078F7DB /* EventListViewController.swift in Sources */,
-				DA5A01711CFC5F070078F7DB /* SocialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
