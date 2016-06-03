@@ -11,6 +11,8 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    static let sharedDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    
     var window: UIWindow?
     var tabBarController : UITabBarController?
 

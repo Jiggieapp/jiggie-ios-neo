@@ -1,15 +1,24 @@
 PODS:
   - Alamofire (3.4.0)
+  - SVProgressHUD (2.0.3)
+  - SwiftHEXColors (1.0.4)
   - SwiftyUserDefaults (2.2.0)
+  - UIAlertView+Blocks (0.9)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
-  - SwiftyUserDefaults
+  - SVProgressHUD (~> 2.0)
+  - SwiftHEXColors (~> 1.0)
+  - SwiftyUserDefaults (~> 2.2)
+  - UIAlertView+Blocks (~> 0.9)
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftHEXColors: b0ecc7bd83a1aa2e1956f9ba51f55ebb2bcf86ef
   SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
 
-PODFILE CHECKSUM: c8039d64e0e19c447869ba277265affdce9eacb9
+PODFILE CHECKSUM: e50087c7e3075604bb8d3234554ce2e66d965182
 
 COCOAPODS: 1.0.0
