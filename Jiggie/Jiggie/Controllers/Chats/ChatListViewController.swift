@@ -1,24 +1,24 @@
 //
-//  EventListViewController.swift
+//  ChatListViewController.swift
 //  Jiggie
 //
-//  Created by Setiady Wiguna on 5/30/16.
+//  Created by Jiggie - Mohammad Nuruddin Effendi on 6/3/16.
 //  Copyright © 2016 Jiggie. All rights reserved.
 //
 
 import UIKit
 
-class EventListViewController: BaseViewController {
+class ChatListViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.setupNavigationBar(title: "Events")
+
+        self.setupNavigationBar(title: "Chat")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 }

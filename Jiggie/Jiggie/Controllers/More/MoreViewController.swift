@@ -1,19 +1,19 @@
 //
-//  EventListViewController.swift
+//  MoreViewController.swift
 //  Jiggie
 //
-//  Created by Setiady Wiguna on 5/30/16.
+//  Created by Jiggie - Mohammad Nuruddin Effendi on 6/3/16.
 //  Copyright © 2016 Jiggie. All rights reserved.
 //
 
 import UIKit
 
-class EventListViewController: BaseViewController {
+class MoreViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.setupNavigationBar(title: "Events")
+        self.setupNavigationBar(title: "More")
     }
 
     override func didReceiveMemoryWarning() {

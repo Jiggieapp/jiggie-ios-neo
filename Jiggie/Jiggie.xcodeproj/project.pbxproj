@@ -30,6 +30,14 @@
 		9367EF581D0168CE00B61FAC /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */; };
 		9367EF5A1D01774800B61FAC /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF591D01774800B61FAC /* BaseTabBarController.swift */; };
 		9367EF5B1D01774800B61FAC /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF591D01774800B61FAC /* BaseTabBarController.swift */; };
+		9367EF5E1D017ADC00B61FAC /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF5C1D017ADC00B61FAC /* ChatListViewController.swift */; };
+		9367EF5F1D017ADC00B61FAC /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF5C1D017ADC00B61FAC /* ChatListViewController.swift */; };
+		9367EF601D017ADC00B61FAC /* ChatListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF5D1D017ADC00B61FAC /* ChatListViewController.xib */; };
+		9367EF611D017ADC00B61FAC /* ChatListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF5D1D017ADC00B61FAC /* ChatListViewController.xib */; };
+		9367EF651D017B5F00B61FAC /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF631D017B5F00B61FAC /* MoreViewController.swift */; };
+		9367EF661D017B5F00B61FAC /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF631D017B5F00B61FAC /* MoreViewController.swift */; };
+		9367EF671D017B5F00B61FAC /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF641D017B5F00B61FAC /* MoreViewController.xib */; };
+		9367EF681D017B5F00B61FAC /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF641D017B5F00B61FAC /* MoreViewController.xib */; };
 		C8C237A118C6680AD8CC4A1E /* Pods_JiggieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */; };
 		DA146C1C1CEEF38100C626FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1B1CEEF38100C626FB /* AppDelegate.swift */; };
 		DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA146C261CEEF38100C626FB /* LaunchScreen.storyboard */; };
@@ -75,6 +83,10 @@
 		9367EF531D0168CE00B61FAC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		9367EF591D01774800B61FAC /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		9367EF5C1D017ADC00B61FAC /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		9367EF5D1D017ADC00B61FAC /* ChatListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatListViewController.xib; sourceTree = "<group>"; };
+		9367EF631D017B5F00B61FAC /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		9367EF641D017B5F00B61FAC /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
 		CB10E87150BE728D90E9DD49 /* Pods-Jiggie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiggie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie.debug.xcconfig"; sourceTree = "<group>"; };
 		DA146C181CEEF38100C626FB /* Jiggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA146C1B1CEEF38100C626FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +158,7 @@
 				9367EF221D013C2800B61FAC /* Chats */,
 				9367EF231D013C2800B61FAC /* Events */,
 				9367EF261D013C2800B61FAC /* Login */,
+				9367EF621D017B4F00B61FAC /* More */,
 				9367EF271D013C2800B61FAC /* Settings */,
 				9367EF281D013C2800B61FAC /* Social */,
 				9367EF2B1D013C2800B61FAC /* Tickets */,
@@ -156,6 +169,8 @@
 		9367EF221D013C2800B61FAC /* Chats */ = {
 			isa = PBXGroup;
 			children = (
+				9367EF5C1D017ADC00B61FAC /* ChatListViewController.swift */,
+				9367EF5D1D017ADC00B61FAC /* ChatListViewController.xib */,
 			);
 			path = Chats;
 			sourceTree = "<group>";
@@ -238,6 +253,15 @@
 				9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9367EF621D017B4F00B61FAC /* More */ = {
+			isa = PBXGroup;
+			children = (
+				9367EF631D017B5F00B61FAC /* MoreViewController.swift */,
+				9367EF641D017B5F00B61FAC /* MoreViewController.xib */,
+			);
+			path = More;
 			sourceTree = "<group>";
 		};
 		DA146C0F1CEEF38100C626FB = {
@@ -425,9 +449,11 @@
 				DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */,
 				9367EF581D0168CE00B61FAC /* Lato-Regular.ttf in Resources */,
 				9367EF381D013C2800B61FAC /* SocialViewController.xib in Resources */,
+				9367EF671D017B5F00B61FAC /* MoreViewController.xib in Resources */,
 				9367EF561D0168CE00B61FAC /* Lato-Italic.ttf in Resources */,
 				9367EF3A1D013C2800B61FAC /* Assets.xcassets in Resources */,
 				9367EF571D0168CE00B61FAC /* Lato-Light.ttf in Resources */,
+				9367EF601D017ADC00B61FAC /* ChatListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +461,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9367EF681D017B5F00B61FAC /* MoreViewController.xib in Resources */,
 				9367EF351D013C2800B61FAC /* EventListViewController.xib in Resources */,
 				9367EF3B1D013C2800B61FAC /* Assets.xcassets in Resources */,
+				9367EF611D017ADC00B61FAC /* ChatListViewController.xib in Resources */,
 				9367EF391D013C2800B61FAC /* SocialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,8 +606,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9367EF651D017B5F00B61FAC /* MoreViewController.swift in Sources */,
 				9367EF5A1D01774800B61FAC /* BaseTabBarController.swift in Sources */,
 				9367EF431D01641D00B61FAC /* UIKitHelper.swift in Sources */,
+				9367EF5E1D017ADC00B61FAC /* ChatListViewController.swift in Sources */,
 				9367EF411D01641D00B61FAC /* FoundationHelper.swift in Sources */,
 				9367EF361D013C2800B61FAC /* SocialViewController.swift in Sources */,
 				9367EF321D013C2800B61FAC /* EventListViewController.swift in Sources */,
@@ -592,8 +622,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9367EF661D017B5F00B61FAC /* MoreViewController.swift in Sources */,
 				9367EF5B1D01774800B61FAC /* BaseTabBarController.swift in Sources */,
 				9367EF441D01641D00B61FAC /* UIKitHelper.swift in Sources */,
+				9367EF5F1D017ADC00B61FAC /* ChatListViewController.swift in Sources */,
 				9367EF421D01641D00B61FAC /* FoundationHelper.swift in Sources */,
 				9367EF371D013C2800B61FAC /* SocialViewController.swift in Sources */,
 				DA146C331CEEF38100C626FB /* JiggieTests.swift in Sources */,
