@@ -2,7 +2,7 @@
 //  MoreViewController.swift
 //  Jiggie
 //
-//  Created by Jiggie - Mohammad Nuruddin Effendi on 6/3/16.
+//  Created by Mohammad Nuruddin Effendi on 6/3/16.
 //  Copyright © 2016 Jiggie. All rights reserved.
 //
 

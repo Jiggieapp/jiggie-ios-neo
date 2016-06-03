@@ -17,19 +17,14 @@
 		9367EF381D013C2800B61FAC /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF2A1D013C2800B61FAC /* SocialViewController.xib */; };
 		9367EF391D013C2800B61FAC /* SocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF2A1D013C2800B61FAC /* SocialViewController.xib */; };
 		9367EF3A1D013C2800B61FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF2F1D013C2800B61FAC /* Assets.xcassets */; };
-		9367EF3B1D013C2800B61FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF2F1D013C2800B61FAC /* Assets.xcassets */; };
 		9367EF411D01641D00B61FAC /* FoundationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF3F1D01641D00B61FAC /* FoundationHelper.swift */; };
-		9367EF421D01641D00B61FAC /* FoundationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF3F1D01641D00B61FAC /* FoundationHelper.swift */; };
 		9367EF431D01641D00B61FAC /* UIKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF401D01641D00B61FAC /* UIKitHelper.swift */; };
-		9367EF441D01641D00B61FAC /* UIKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF401D01641D00B61FAC /* UIKitHelper.swift */; };
 		9367EF461D01672900B61FAC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF451D01672900B61FAC /* BaseViewController.swift */; };
-		9367EF471D01672900B61FAC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF451D01672900B61FAC /* BaseViewController.swift */; };
 		9367EF551D0168CE00B61FAC /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF511D0168CE00B61FAC /* Lato-Bold.ttf */; };
 		9367EF561D0168CE00B61FAC /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF521D0168CE00B61FAC /* Lato-Italic.ttf */; };
 		9367EF571D0168CE00B61FAC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF531D0168CE00B61FAC /* Lato-Light.ttf */; };
 		9367EF581D0168CE00B61FAC /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF541D0168CE00B61FAC /* Lato-Regular.ttf */; };
 		9367EF5A1D01774800B61FAC /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF591D01774800B61FAC /* BaseTabBarController.swift */; };
-		9367EF5B1D01774800B61FAC /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF591D01774800B61FAC /* BaseTabBarController.swift */; };
 		9367EF5E1D017ADC00B61FAC /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF5C1D017ADC00B61FAC /* ChatListViewController.swift */; };
 		9367EF5F1D017ADC00B61FAC /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367EF5C1D017ADC00B61FAC /* ChatListViewController.swift */; };
 		9367EF601D017ADC00B61FAC /* ChatListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF5D1D017ADC00B61FAC /* ChatListViewController.xib */; };
@@ -39,7 +34,7 @@
 		9367EF671D017B5F00B61FAC /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF641D017B5F00B61FAC /* MoreViewController.xib */; };
 		9367EF681D017B5F00B61FAC /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9367EF641D017B5F00B61FAC /* MoreViewController.xib */; };
 		93F47EF51D019322009262F4 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F47EF41D019322009262F4 /* NetworkHelper.swift */; };
-		93F47EF61D019322009262F4 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F47EF41D019322009262F4 /* NetworkHelper.swift */; };
+		93F47EF81D01950A009262F4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F47EF71D01950A009262F4 /* APIHelper.swift */; };
 		C8C237A118C6680AD8CC4A1E /* Pods_JiggieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6555F400C2B6E96DF6D04526 /* Pods_JiggieTests.framework */; };
 		DA146C1C1CEEF38100C626FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA146C1B1CEEF38100C626FB /* AppDelegate.swift */; };
 		DA146C281CEEF38100C626FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA146C261CEEF38100C626FB /* LaunchScreen.storyboard */; };
@@ -90,6 +85,7 @@
 		9367EF631D017B5F00B61FAC /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		9367EF641D017B5F00B61FAC /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
 		93F47EF41D019322009262F4 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		93F47EF71D01950A009262F4 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		CB10E87150BE728D90E9DD49 /* Pods-Jiggie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jiggie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jiggie/Pods-Jiggie.debug.xcconfig"; sourceTree = "<group>"; };
 		DA146C181CEEF38100C626FB /* Jiggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jiggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA146C1B1CEEF38100C626FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				93F47EF41D019322009262F4 /* NetworkHelper.swift */,
+				93F47EF71D01950A009262F4 /* APIHelper.swift */,
 				9367EF3F1D01641D00B61FAC /* FoundationHelper.swift */,
 				9367EF401D01641D00B61FAC /* UIKitHelper.swift */,
 			);
@@ -467,7 +464,6 @@
 			files = (
 				9367EF681D017B5F00B61FAC /* MoreViewController.xib in Resources */,
 				9367EF351D013C2800B61FAC /* EventListViewController.xib in Resources */,
-				9367EF3B1D013C2800B61FAC /* Assets.xcassets in Resources */,
 				9367EF611D017ADC00B61FAC /* ChatListViewController.xib in Resources */,
 				9367EF391D013C2800B61FAC /* SocialViewController.xib in Resources */,
 			);
@@ -619,6 +615,7 @@
 				9367EF361D013C2800B61FAC /* SocialViewController.swift in Sources */,
 				9367EF321D013C2800B61FAC /* EventListViewController.swift in Sources */,
 				DA146C1C1CEEF38100C626FB /* AppDelegate.swift in Sources */,
+				93F47EF81D01950A009262F4 /* APIHelper.swift in Sources */,
 				9367EF461D01672900B61FAC /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,15 +625,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9367EF661D017B5F00B61FAC /* MoreViewController.swift in Sources */,
-				9367EF5B1D01774800B61FAC /* BaseTabBarController.swift in Sources */,
-				93F47EF61D019322009262F4 /* NetworkHelper.swift in Sources */,
-				9367EF441D01641D00B61FAC /* UIKitHelper.swift in Sources */,
 				9367EF5F1D017ADC00B61FAC /* ChatListViewController.swift in Sources */,
-				9367EF421D01641D00B61FAC /* FoundationHelper.swift in Sources */,
 				9367EF371D013C2800B61FAC /* SocialViewController.swift in Sources */,
 				DA146C331CEEF38100C626FB /* JiggieTests.swift in Sources */,
 				9367EF331D013C2800B61FAC /* EventListViewController.swift in Sources */,
-				9367EF471D01672900B61FAC /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
