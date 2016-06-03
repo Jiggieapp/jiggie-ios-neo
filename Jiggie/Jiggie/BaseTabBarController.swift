@@ -37,7 +37,7 @@ class BaseTabBarController: UITabBarController {
                                             chatNavigationController,
                                             moreNavigationController]
         
-        let titleTextAttributes = [NSFontAttributeName : UIFont.phBold(11)];
+        let titleTextAttributes = [NSFontAttributeName : UIFont.phBold(10)];
         let titlePosition = UIOffsetMake(0, -3)
         
         var tabBarItems = tabBarController.tabBar.items as [UITabBarItem]!
