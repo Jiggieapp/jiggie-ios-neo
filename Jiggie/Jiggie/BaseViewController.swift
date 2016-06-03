@@ -3,7 +3,7 @@
 //  MyHealth
 //
 //  Created by uudshan on 7/8/15.
-//  Copyright (c) 2015 senisono. All rights reserved.
+//  Copyright (c) 2015 Mohammad Nuruddin Effendi. All rights reserved.
 //
 import UIKit
 import UIAlertView_Blocks

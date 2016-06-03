@@ -1,9 +1,9 @@
 //
 //  BaseTabBarController.swift
-//  NyariJob-Pro
+//  
 //
 //  Created by uudshan on 24/03/16.
-//  Copyright © 2016 NyariJob. All rights reserved.
+//  Copyright © 2016 Mohammad Nuruddin Effendi. All rights reserved.
 //
 
 import UIKit

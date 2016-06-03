@@ -3,7 +3,7 @@
 //
 //
 //  Created by uudshan on 07/02/16.
-//  Copyright © 2016 senisono. All rights reserved.
+//  Copyright © 2016 Mohammad Nuruddin Effendi. All rights reserved.
 //
 
 import Foundation
