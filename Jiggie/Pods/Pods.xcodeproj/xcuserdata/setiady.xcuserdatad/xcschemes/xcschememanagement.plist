@@ -24,7 +24,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftHEXColors.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftyUserDefaults.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIAlertView+Blocks.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +47,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>067988DB044803BF7583FBA99B8AC4E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09174E1BA5411A9B9B28EA0F5497DC5A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>114F74C10A575D3BBBD321FBB44B7A17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>204957CAF6D1D13247D0D1DA50A8429D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4121D75BF25DD13F7F47DB99394945F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7236A045EB146B9469780CA751D27643</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -43,16 +83,6 @@
 			<true/>
 		</dict>
 		<key>A75FCB135A34D8CAEADEBFE2651ABF69</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BB343A30578100B50C9725BB44F70544</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FBF4BCDAD35AD79D2F236D5BA30DC28E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
