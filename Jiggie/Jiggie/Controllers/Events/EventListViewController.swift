@@ -8,8 +8,10 @@
 
 import UIKit
 
-class EventListViewController: BaseViewController {
+class EventListViewController: BaseViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,4 +23,13 @@ class EventListViewController: BaseViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10;
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 54;
+    }
+
+
 }
